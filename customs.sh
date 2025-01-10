@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #used to simplify connecting to overthewire for the wargames
-
 # Check if the level is provided as a command-line argument
 if [[ -z "$1" ]]; then
     echo "Usage: $0 <level>"
@@ -78,4 +77,8 @@ else
     echo "Error: No supported terminal emulator found (gnome-terminal, xterm, or konsole)."
     exit 1
 fi
+
+#basics
+alias ..="cd .."
+alias rs="reset"
 
