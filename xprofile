@@ -1,0 +1,6 @@
+#bashbuddy by ZNav
+alias rs="reset"
+alias ..="cd .."
+alias kl="exit"
+alias pwr="sudo shutdown -h now"
+alias srcsh="source ~/.bashrc"
